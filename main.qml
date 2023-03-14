@@ -74,6 +74,22 @@ Window {
                     text: "rewind 5s"
                     onClicked: {mediaPlayer.setPosition(mediaPlayer.position - 5000)}
                 }
+    Button {
+        x: 0
+        y: 396
+        width: 80
+        height: 28
+                    text: "Play"
+                    onClicked: {mediaPlayer.play()}
+                }
+    Button {
+        x: 86
+        y: 396
+        width: 80
+        height: 28
+                    text: "Pause"
+                    onClicked: {mediaPlayer.pause()}
+                }
 
 
 }
